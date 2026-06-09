@@ -1,0 +1,75 @@
+.app {
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header p {
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  border: 2px solid #ff007f;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 0, 127, 0.3);
+  padding: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 242, 254, 0.8);
+  border-color: #00f2fe;
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+  color: #fff;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00f2fe;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.category-tag {
+  background: linear-gradient(45deg, #ff007f, #7928ca);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin: 8px auto;
+}
